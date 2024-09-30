@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="La_Cafeteria2.CrearCuentaPage"
+             Title="CrearCuentaPage">
+
+    <Grid>
+
+        <Image Source="cofee1.jpeg"
+                Aspect="AspectFill"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"/>
+        <BoxView Color="#80000000"/>
+
+
+        <StackLayout  Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="Crea tu cuenta" FontSize="24" HorizontalOptions="Center"/>
+                <Entry x:Name="EmailEntry" Placeholder="Correo Electronico" BackgroundColor="White"  TextColor="Black" Keyboard="Email" Margin="0,10,0,10"/>
+                <Entry x:Name="ContraseñaEntry" Placeholder="Contraseña" BackgroundColor="White"  TextColor="Black" IsPassword="True" Margin="0,10,0,10"/>
+            <Entry x:Name="ContraEntry" Placeholder="Confirmar contraseña" BackgroundColor="White" TextColor="Black" IsPassword="True" Margin="0,10,0,30" />
+                <Button Text="Crear cuenta" BackgroundColor="BurlyWood" TextColor="Black" Clicked="Button_Clicked_1" />
+        </StackLayout>
+    </StackLayout>
+    </Grid>
+    
+
+</ContentPage>

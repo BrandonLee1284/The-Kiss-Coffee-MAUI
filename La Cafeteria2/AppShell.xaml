@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="La_Cafeteria2.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:La_Cafeteria2"
+    Shell.FlyoutBehavior="Locked"
+    Shell.FlyoutBackgroundColor="Wheat"
+    Shell.FlyoutWidth="60"
+    Title="La_Cafeteria2">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+</Shell>
